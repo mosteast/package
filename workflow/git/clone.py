@@ -31,6 +31,7 @@ class Clone(object):
             return
 
         self.remove_git_dir(path)
+        print(f'cd {path}')
 
 
 if __name__ == '__main__':
